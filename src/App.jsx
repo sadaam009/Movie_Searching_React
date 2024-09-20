@@ -56,7 +56,7 @@ setloading(true)
   <Card movie={movie} key={movie.imdbID}/>
 ))
 : <div className="">
-  <h2>The movie does not exist</h2>
+  <h2>The movie does Not  exist</h2>
 </div>
 : <Loading/>
   }
